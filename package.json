@@ -1,0 +1,14 @@
+{
+  "name": "clerk-token-matrix",
+  "version": "1.0.0",
+  "description": "Offline matrix of which Clerk-shaped JWTs @clerk/backend accepts",
+  "scripts": {
+    "start": "CLERK_TELEMETRY_DISABLED=1 node matrix.mjs"
+  },
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@clerk/backend": "^3.26.5"
+  },
+  "private": true
+}
